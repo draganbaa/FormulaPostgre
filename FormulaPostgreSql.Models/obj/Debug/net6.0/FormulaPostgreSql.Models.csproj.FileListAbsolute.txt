@@ -1,0 +1,14 @@
+C:\Users\Dragan\source\repos\FormulaPostgreSql\FormulaPostgreSql.Models\bin\Debug\net6.0\FormulaPostgreSql.Models.deps.json
+C:\Users\Dragan\source\repos\FormulaPostgreSql\FormulaPostgreSql.Models\bin\Debug\net6.0\FormulaPostgreSql.Models.runtimeconfig.json
+C:\Users\Dragan\source\repos\FormulaPostgreSql\FormulaPostgreSql.Models\bin\Debug\net6.0\FormulaPostgreSql.Models.dll
+C:\Users\Dragan\source\repos\FormulaPostgreSql\FormulaPostgreSql.Models\bin\Debug\net6.0\FormulaPostgreSql.Models.pdb
+C:\Users\Dragan\source\repos\FormulaPostgreSql\FormulaPostgreSql.Models\obj\Debug\net6.0\FormulaPostgreSql.Models.csproj.AssemblyReference.cache
+C:\Users\Dragan\source\repos\FormulaPostgreSql\FormulaPostgreSql.Models\obj\Debug\net6.0\FormulaPostgreSql.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dragan\source\repos\FormulaPostgreSql\FormulaPostgreSql.Models\obj\Debug\net6.0\FormulaPostgreSql.Models.AssemblyInfoInputs.cache
+C:\Users\Dragan\source\repos\FormulaPostgreSql\FormulaPostgreSql.Models\obj\Debug\net6.0\FormulaPostgreSql.Models.AssemblyInfo.cs
+C:\Users\Dragan\source\repos\FormulaPostgreSql\FormulaPostgreSql.Models\obj\Debug\net6.0\FormulaPostgreSql.Models.csproj.CoreCompileInputs.cache
+C:\Users\Dragan\source\repos\FormulaPostgreSql\FormulaPostgreSql.Models\obj\Debug\net6.0\FormulaPostgreSql.Models.dll
+C:\Users\Dragan\source\repos\FormulaPostgreSql\FormulaPostgreSql.Models\obj\Debug\net6.0\refint\FormulaPostgreSql.Models.dll
+C:\Users\Dragan\source\repos\FormulaPostgreSql\FormulaPostgreSql.Models\obj\Debug\net6.0\FormulaPostgreSql.Models.pdb
+C:\Users\Dragan\source\repos\FormulaPostgreSql\FormulaPostgreSql.Models\obj\Debug\net6.0\FormulaPostgreSql.Models.genruntimeconfig.cache
+C:\Users\Dragan\source\repos\FormulaPostgreSql\FormulaPostgreSql.Models\obj\Debug\net6.0\ref\FormulaPostgreSql.Models.dll

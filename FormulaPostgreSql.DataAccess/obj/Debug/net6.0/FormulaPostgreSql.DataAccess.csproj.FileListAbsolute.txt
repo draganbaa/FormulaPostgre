@@ -1,0 +1,17 @@
+C:\Users\Dragan\source\repos\FormulaPostgreSql\FormulaPostgreSql.DataAccess\bin\Debug\net6.0\FormulaPostgreSql.DataAccess.deps.json
+C:\Users\Dragan\source\repos\FormulaPostgreSql\FormulaPostgreSql.DataAccess\bin\Debug\net6.0\FormulaPostgreSql.DataAccess.runtimeconfig.json
+C:\Users\Dragan\source\repos\FormulaPostgreSql\FormulaPostgreSql.DataAccess\bin\Debug\net6.0\FormulaPostgreSql.DataAccess.dll
+C:\Users\Dragan\source\repos\FormulaPostgreSql\FormulaPostgreSql.DataAccess\bin\Debug\net6.0\FormulaPostgreSql.DataAccess.pdb
+C:\Users\Dragan\source\repos\FormulaPostgreSql\FormulaPostgreSql.DataAccess\bin\Debug\net6.0\FormulaPostgreSql.Models.dll
+C:\Users\Dragan\source\repos\FormulaPostgreSql\FormulaPostgreSql.DataAccess\bin\Debug\net6.0\FormulaPostgreSql.Models.pdb
+C:\Users\Dragan\source\repos\FormulaPostgreSql\FormulaPostgreSql.DataAccess\obj\Debug\net6.0\FormulaPostgreSql.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Dragan\source\repos\FormulaPostgreSql\FormulaPostgreSql.DataAccess\obj\Debug\net6.0\FormulaPostgreSql.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dragan\source\repos\FormulaPostgreSql\FormulaPostgreSql.DataAccess\obj\Debug\net6.0\FormulaPostgreSql.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Dragan\source\repos\FormulaPostgreSql\FormulaPostgreSql.DataAccess\obj\Debug\net6.0\FormulaPostgreSql.DataAccess.AssemblyInfo.cs
+C:\Users\Dragan\source\repos\FormulaPostgreSql\FormulaPostgreSql.DataAccess\obj\Debug\net6.0\FormulaPostgreSql.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Dragan\source\repos\FormulaPostgreSql\FormulaPostgreSql.DataAccess\obj\Debug\net6.0\FormulaPostgreSql.DataAccess.csproj.CopyComplete
+C:\Users\Dragan\source\repos\FormulaPostgreSql\FormulaPostgreSql.DataAccess\obj\Debug\net6.0\FormulaPostgreSql.DataAccess.dll
+C:\Users\Dragan\source\repos\FormulaPostgreSql\FormulaPostgreSql.DataAccess\obj\Debug\net6.0\refint\FormulaPostgreSql.DataAccess.dll
+C:\Users\Dragan\source\repos\FormulaPostgreSql\FormulaPostgreSql.DataAccess\obj\Debug\net6.0\FormulaPostgreSql.DataAccess.pdb
+C:\Users\Dragan\source\repos\FormulaPostgreSql\FormulaPostgreSql.DataAccess\obj\Debug\net6.0\FormulaPostgreSql.DataAccess.genruntimeconfig.cache
+C:\Users\Dragan\source\repos\FormulaPostgreSql\FormulaPostgreSql.DataAccess\obj\Debug\net6.0\ref\FormulaPostgreSql.DataAccess.dll
