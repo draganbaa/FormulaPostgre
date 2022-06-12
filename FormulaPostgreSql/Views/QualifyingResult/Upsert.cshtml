@@ -1,0 +1,69 @@
+﻿@using FormulaPostgreSql.Models.ViewModels
+@model QualifyingResultVM
+
+@{
+    ViewData["Title"] = "Upsert";
+}
+
+
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" asp-action="Upsert">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="QualifyingResult.Id" />
+            <div class="row pb-2">
+                <h2 class="text-primary">@(Model.QualifyingResult.Id!=0?"Update":"Create") Penalties</h2>
+                <hr />
+            </div>
+            <div class="form-group">
+                <label asp-for="QualifyingResult.Fastestlapq1" class="control-label"></label>
+                <input asp-for="QualifyingResult.Fastestlapq1" class="form-control" />
+                <span asp-validation-for="QualifyingResult.Fastestlapq1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="QualifyingResult.Fastestlapq2" class="control-label"></label>
+                <input asp-for="QualifyingResult.Fastestlapq2" class="form-control" />
+                <span asp-validation-for="QualifyingResult.Fastestlapq2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="QualifyingResult.Fastestlapq3" class="control-label"></label>
+                <input asp-for="QualifyingResult.Fastestlapq3" class="form-control" />
+                <span asp-validation-for="QualifyingResult.Fastestlapq3" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="QualifyingResult.DriverFk"></label>
+                <select asp-for="QualifyingResult.DriverFk" asp-items="@Model.DriverList" class="form-select">
+                    <option disabled selected>--Select Driver--</option>
+                </select>
+                <span asp-validation-for="QualifyingResult.DriverFk" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="QualifyingResult.RaceFk"></label>
+                <select asp-for="QualifyingResult.RaceFk" asp-items="@Model.RaceList" class="form-select">
+                    <option disabled selected>--Select Race--</option>
+                </select>
+                <span asp-validation-for="QualifyingResult.RaceFk" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                @if (Model.QualifyingResult.Id != 0)
+                {
+                    <button type="submit" class="btn btn-primary" style="width:100px">Update</button>
+                }
+                else
+                {
+                    <button type="submit" onclick="return ValidateInput()" class="btn btn-primary" style="width:100px">Create</button>
+                }
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }

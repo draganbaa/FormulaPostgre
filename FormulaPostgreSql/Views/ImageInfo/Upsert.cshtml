@@ -1,0 +1,78 @@
+﻿@using FormulaPostgreSql.Models.ViewModels
+@model ImageVM
+
+@{
+    ViewData["Title"] = "Upsert";
+}
+
+
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" asp-action="Upsert">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ImageInfo.Id" />
+            <div class="row pb-2">
+                <h2 class="text-primary">@(Model.ImageInfo.Id!=0?"Update":"Create") Images</h2>
+                <hr />
+            </div>
+            <div class="form-group">
+                <label asp-for="ImageInfo.ImageUrl" class="control-label"></label>
+                <input asp-for="ImageInfo.ImageUrl" class="form-control" />
+                <span asp-validation-for="ImageInfo.ImageUrl" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImageInfo.ImageDescription" class="control-label"></label>
+                <input asp-for="ImageInfo.ImageDescription" class="form-control" />
+                <span asp-validation-for="ImageInfo.ImageDescription" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="ImageInfo.TeamFk"></label>
+                <select asp-for="ImageInfo.TeamFk" asp-items="@Model.TeamList" class="form-select">
+                    <option disabled selected>--Select Team--</option>
+                </select>
+
+            </div>
+            <div class="mb-3">
+                <label asp-for="ImageInfo.DriverFk"></label>
+                <select asp-for="ImageInfo.DriverFk" asp-items="@Model.DriverList" class="form-select">
+                    <option disabled selected>--Select Driver--</option>
+                </select>
+
+            </div>
+            <div class="mb-3">
+                <label asp-for="ImageInfo.TrackFk"></label>
+                <select asp-for="ImageInfo.TrackFk" asp-items="@Model.TrackList" class="form-select">
+                    <option disabled selected>--Select Track--</option>
+                </select>
+
+            </div>
+            <div class="mb-3">
+                <label asp-for="ImageInfo.CountryFk"></label>
+                <select asp-for="ImageInfo.CountryFk" asp-items="@Model.CountryList" class="form-select">
+                    <option disabled selected>--Select Country--</option>
+                </select>
+
+            </div>
+            <div class="form-group">
+                @if (Model.ImageInfo.Id != 0)
+                {
+                    <button type="submit" class="btn btn-primary" style="width:100px">Update</button>
+                }
+                else
+                {
+                    <button type="submit" onclick="return ValidateInput()" class="btn btn-primary" style="width:100px">Create</button>
+                }
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }

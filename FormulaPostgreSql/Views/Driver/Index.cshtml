@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Driver Info";
+}
+
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2 class="text-primary">Drivers List</h2>
+        </div>
+        <div class="col-6 text-end">
+            <a asp-action="Upsert" class="btn btn-primary">
+                <i class="bi bi-plus-circle"></i> Create New Driver
+            </a>
+        </div>
+    </div>
+    <br />
+    <table id="myTable" class="table table-bordered table-striped" style="width:100%">
+        <thead>
+            <tr>
+                <th>DriverName</th>
+                <th>DriverNumber</th>
+                <th>Driver Country</th>
+                <th>Driver Team</th>
+                <th></th>
+            </tr>
+        </thead>
+
+    </table>
+</div>
+
+@section Scripts{
+    <script src="~/js/drivers.js"></script>
+}

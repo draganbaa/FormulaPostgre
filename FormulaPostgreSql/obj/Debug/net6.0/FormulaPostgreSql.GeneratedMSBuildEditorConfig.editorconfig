@@ -1,0 +1,136 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FormulaPostgreSql
+build_property.RootNamespace = FormulaPostgreSql
+build_property.ProjectDir = C:\Users\Dragan\source\repos\FormulaPostgreSql\FormulaPostgreSql\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Dragan\source\repos\FormulaPostgreSql\FormulaPostgreSql
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Dragan/source/repos/FormulaPostgreSql/FormulaPostgreSql/Views/Countries/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyaWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dragan/source/repos/FormulaPostgreSql/FormulaPostgreSql/Views/Countries/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyaWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dragan/source/repos/FormulaPostgreSql/FormulaPostgreSql/Views/Countries/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyaWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dragan/source/repos/FormulaPostgreSql/FormulaPostgreSql/Views/Countries/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyaWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dragan/source/repos/FormulaPostgreSql/FormulaPostgreSql/Views/Driver/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpdmVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dragan/source/repos/FormulaPostgreSql/FormulaPostgreSql/Views/Driver/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpdmVyXFVwc2VydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dragan/source/repos/FormulaPostgreSql/FormulaPostgreSql/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dragan/source/repos/FormulaPostgreSql/FormulaPostgreSql/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dragan/source/repos/FormulaPostgreSql/FormulaPostgreSql/Views/ImageInfo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VJbmZvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dragan/source/repos/FormulaPostgreSql/FormulaPostgreSql/Views/ImageInfo/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VJbmZvXFVwc2VydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dragan/source/repos/FormulaPostgreSql/FormulaPostgreSql/Views/LocationInfo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpb25JbmZvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dragan/source/repos/FormulaPostgreSql/FormulaPostgreSql/Views/LocationInfo/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpb25JbmZvXFVwc2VydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dragan/source/repos/FormulaPostgreSql/FormulaPostgreSql/Views/Penalty/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVuYWx0eVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dragan/source/repos/FormulaPostgreSql/FormulaPostgreSql/Views/Penalty/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVuYWx0eVxVcHNlcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dragan/source/repos/FormulaPostgreSql/FormulaPostgreSql/Views/QualifyingResult/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbGlmeWluZ1Jlc3VsdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dragan/source/repos/FormulaPostgreSql/FormulaPostgreSql/Views/QualifyingResult/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbGlmeWluZ1Jlc3VsdFxVcHNlcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dragan/source/repos/FormulaPostgreSql/FormulaPostgreSql/Views/RaceResult/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFjZVJlc3VsdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dragan/source/repos/FormulaPostgreSql/FormulaPostgreSql/Views/RaceResult/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFjZVJlc3VsdFxVcHNlcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dragan/source/repos/FormulaPostgreSql/FormulaPostgreSql/Views/Race/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFjZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dragan/source/repos/FormulaPostgreSql/FormulaPostgreSql/Views/Race/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFjZVxVcHNlcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dragan/source/repos/FormulaPostgreSql/FormulaPostgreSql/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dragan/source/repos/FormulaPostgreSql/FormulaPostgreSql/Views/Shared/_Notification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dragan/source/repos/FormulaPostgreSql/FormulaPostgreSql/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dragan/source/repos/FormulaPostgreSql/FormulaPostgreSql/Views/Team/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dragan/source/repos/FormulaPostgreSql/FormulaPostgreSql/Views/Team/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbVxVcHNlcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dragan/source/repos/FormulaPostgreSql/FormulaPostgreSql/Views/TrackInfo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhY2tJbmZvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dragan/source/repos/FormulaPostgreSql/FormulaPostgreSql/Views/TrackInfo/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhY2tJbmZvXFVwc2VydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dragan/source/repos/FormulaPostgreSql/FormulaPostgreSql/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dragan/source/repos/FormulaPostgreSql/FormulaPostgreSql/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dragan/source/repos/FormulaPostgreSql/FormulaPostgreSql/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-g5rx9k7uv9

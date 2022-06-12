@@ -1,0 +1,64 @@
+﻿@using FormulaPostgreSql.Models.ViewModels
+@model DriverVM
+
+@{
+    ViewData["Title"] = "Upsert";
+}
+
+
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" asp-action="Upsert">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Driver.Id" />
+            <div class="row pb-2">
+                <h2 class="text-primary">@(Model.Driver.Id!=0?"Update":"Create") Drivers</h2>
+                <hr />
+            </div>
+            <div class="form-group">
+                <label asp-for="Driver.DriverName" class="control-label"></label>
+                <input asp-for="Driver.DriverName" class="form-control" />
+                <span asp-validation-for="Driver.DriverName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Driver.DriverNumber" class="control-label"></label>
+                <input asp-for="Driver.DriverNumber" class="form-control" />
+                <span asp-validation-for="Driver.DriverNumber" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Driver.CountryFk"></label>
+                <select asp-for="Driver.CountryFk" asp-items="@Model.CountryList" class="form-select">
+                    <option disabled selected>--Select Country--</option>
+                </select>
+                <span asp-validation-for="Driver.CountryFk" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Driver.TeamFk"></label>
+                <select asp-for="Driver.TeamFk" asp-items="@Model.TeamList" class="form-select">
+                    <option disabled selected>--Select Team--</option>
+                </select>
+                <span asp-validation-for="Driver.TeamFk" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                @if (Model.Driver.Id != 0)
+                {
+                    <button type="submit" class="btn btn-primary" style="width:100px">Update</button>
+                }
+                else
+                {
+                    <button type="submit" onclick="return ValidateInput()" class="btn btn-primary" style="width:100px">Create</button>
+                }
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }

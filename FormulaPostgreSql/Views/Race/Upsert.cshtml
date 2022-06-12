@@ -1,0 +1,77 @@
+﻿@using FormulaPostgreSql.Models.ViewModels
+@model RaceVM
+
+@{
+    ViewData["Title"] = "Upsert";
+}
+
+
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" asp-action="Upsert">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Race.Id" />
+            <div class="row pb-2">
+                <h2 class="text-primary">@(Model.Race.Id!=0?"Update":"Create") Races</h2>
+                <hr />
+            </div>
+            <div class="form-group">
+                <label asp-for="Race.RaceName" class="control-label"></label>
+                <input asp-for="Race.RaceName" class="form-control" />
+                <span asp-validation-for="Race.RaceName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Race.RaceRound" class="control-label"></label>
+                <input asp-for="Race.RaceRound" class="form-control" />
+                <span asp-validation-for="Race.RaceRound" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Race.RaceStartDate" class="control-label"></label>
+                <input asp-for="Race.RaceStartDate" class="form-control" />
+                <span asp-validation-for="Race.RaceStartDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Race.RaceLaps" class="control-label"></label>
+                <input asp-for="Race.RaceLaps" class="form-control" />
+                <span asp-validation-for="Race.RaceLaps" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Race.RaceLength" class="control-label"></label>
+                <input type="number" asp-for="Race.RaceLength" class="form-control" />
+                <span asp-validation-for="Race.RaceLength" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Race.IsSprintQualifying" class="control-label"></label>
+                <input type="checkbox" asp-for="Race.IsSprintQualifying"/>
+                <span asp-validation-for="Race.IsSprintQualifying" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Race.TrackFk"></label>
+                <select asp-for="Race.TrackFk" asp-items="@Model.TrackList" class="form-select">
+                    <option disabled selected>--Select Track--</option>
+                </select>
+                <span asp-validation-for="Race.TrackFk" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                @if (Model.Race.Id != 0)
+                {
+                    <button type="submit" class="btn btn-primary" style="width:100px">Update</button>
+                }
+                else
+                {
+                    <button type="submit" onclick="return ValidateInput()" class="btn btn-primary" style="width:100px">Create</button>
+                }
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }
